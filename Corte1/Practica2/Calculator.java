@@ -19,8 +19,13 @@ public class Calculator {
         return x1 * x2;
 }
     public int div(){
-        return x1 / x2;
-}
+       if (x2 == 0) {
+            System.out.println("No se puede dividir entre cero");
+            return 0;
+        } else {
+            return x1 / x2;
+        }
+    }
     
     public static void main(String[] args) {
         Calculator m = new Calculator(34, 43);
@@ -30,3 +35,4 @@ public class Calculator {
         System.out.println(m.div());
     }
 }  
+
