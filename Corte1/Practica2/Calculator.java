@@ -36,11 +36,12 @@ public class Calculator {
         
         Calculator n = new Calculator(15, 0);
         System.out.println("La suma n es:" + n.add());
-        System.out.println("La resta n es:" + m.subs());
-        System.out.println("La multiplicacion n es:" + m.multiplication());
-        System.out.println("La division n es:" + m.div());
+        System.out.println("La resta n es:" + n.subs());
+        System.out.println("La multiplicacion n es:" + n.multiplication());
+        System.out.println("La division n es:" + n.div());
     }
 } 
+
 
 
 
