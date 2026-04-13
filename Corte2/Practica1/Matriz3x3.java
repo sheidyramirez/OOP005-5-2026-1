@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class Matriz3x3 {
     
-    public int[][] data;
-    public int filas;
-    public int columnas;
+    private final int[][] data;
+    private final int filas;
+    private final int columnas;
     
     public Matriz3x3(){
         filas = 3; 
